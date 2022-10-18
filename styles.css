@@ -1,0 +1,204 @@
+body{
+    background-color: #FFF3EC;
+    font-family: 'Monteserrat', sans-serif;
+}
+#firstLogo{
+    width: 7rem;
+    padding-right:1rem;
+    align-self: center;
+}
+#name{
+    font-size: 2rem;
+    color: #E37A41;
+    font-weight: lighter; 
+}
+#headerbuttons{
+    font-size: 1.25rem;
+    color: #577229;
+    font-weight: bold; 
+    display: flex; 
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+
+}
+#home, #aboutus, #contactus, #enrollment, #curriculum{
+    padding-left: 2rem;
+    padding-right:2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+#home{
+    border-bottom: 4px solid #577229;
+}
+#photobanner{
+    margin: 0;
+    width: 100%;
+    min-width: 100%; 
+}
+
+#quote{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 5rem;
+    font-size: 2rem;
+    color: #577229;
+    font-weight: lighter; 
+    text-align: center;
+    padding-bottom: 5rem;
+    border-bottom:.75rem solid #E37A41;
+    border-top: .75rem solid #E37A41;
+    margin-top: 8rem;
+}
+#logo1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+.calendar{
+    display:flex;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-bottom: 10rem; 
+    flex-wrap: wrap;
+}
+#table, #drawing1, #drawing2{
+    width: 20rem;
+    padding: 2rem; 
+}
+.enrollnow{
+    padding-bottom: 10rem;
+    position: relative;
+}
+#enrollkids{
+    width: 75%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#today{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFF3EC;
+    position: absolute;
+    top: 25rem;
+    left: 28rem;
+}
+#enrollbuttons{
+    position: absolute;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: #FFF3EC;
+    top: 30rem;
+    left: 27rem;
+}
+#logo{
+    width: 9rem;
+    padding-right:.5rem;
+    align-self: center;
+    padding-top: .05rem;
+
+}
+#logo2{
+    display: flex;
+     /*why do these two lines squish logo image*/
+    padding-left: 2rem;
+    justify-content: flex-start;
+    
+}
+#info{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+#footer{
+    background-color: #ADC28A;
+    padding-top: .5rem;
+    width: 100%;
+}
+#one,#two{
+   /* border: 2px solid black;*/
+    background-color: #577229;
+    padding: .5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+#two{
+    margin-left: 2rem;
+}
+#uno{
+    color: #FFF3EC;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 0; 
+}
+#dos{
+    color: #341D10;
+    font-weight: bold;
+    font-size: 1rem;
+    margin:0;
+    padding: 0; 
+}
+#tres{
+    color: #341D10;
+    font-weight: bold;
+    font-size: 1rem;
+    margin:0;
+    padding: 0;  
+}
+#twitter, #insta, #face{
+    background-color: #FFF3EC;
+    padding: .25rem;
+    border-radius: .25rem;
+    margin-right: .75rem;
+    margin-bottom: .5rem
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+}
+#sbar{
+    background-color:#D1CDCA;
+    border-radius: .25rem;
+    color: #595454;
+    padding-right: 15rem;
+    padding-left: .5rem;
+    padding-top:.25rem;
+}
+#Search{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+#searchicon{
+    background-color: #ADC28A;
+    border-radius: .25rem;
+    padding: .25rem;
+    width: 1rem;
+    margin-left: .5rem;
+}
+.cal{
+    position:relative
+}
+#t, #i, #f{
+    position: absolute;
+    background-color: #FFF3EC;
+    padding: .25rem;
+    border-radius: .25rem;
+    margin-right: .75rem;
+    margin-bottom: .5rem;
+    right: 1.5rem;
+    top: 19.5rem;
+}
+#menu{
+    padding: 1rem;
+    background-color: #ADC28A;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+    margin-left: .25rem;
+}
+
+

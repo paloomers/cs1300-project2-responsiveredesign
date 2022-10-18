@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New World Montesorri School </title>
+    <link rel="icon" href="newworld.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="logo1">
+            <img id="firstLogo" src ="newworld.png" alt="New World Montessori School's Logo">
+            <div>
+                <p id="name"> NEW WORLD <br> MONTESSORI SCHOOL</p>
+            </div>
+        </div>
+        <div id="Search">
+            <a id="sbar">Search...</a>
+            <img id="searchicon" src="🦆 emoji _magnifying glass tilted right_.png" alt="Search">
+        </div>
+        <div id="headerbuttons">
+            <a id="home">HOME</a>
+            <a id="aboutus">ABOUT US</a>
+            <a id="curriculum">CURRICULUM</a>
+            <a id="enrollment">ENROLLMENT</a>
+            <a id="contactus">CONTACT US</a>
+        </div>
+        <script>
+             var width = screen.width;
+             if (width < 905){
+                var str = "<a id='home'>HOME</a> <img id ='menu' src='🦆 emoji _hamburger menu_.png'>"
+            }
+            else{
+                var str = "<a id='home'>HOME</a><a id='aboutus'>ABOUT US</a><a id='curriculum'>CURRICULUM</a><a id='enrollment'>ENROLLMENT</a><a id='contactus'>CONTACT US</a>"
+            }   
+            document.getElementById("headerbuttons").innerHTML = str;
+            window.addEventListener('resize', function(event) { 
+                if (width < 905){
+                var str = "<a id='home'>HOME</a> <img id ='menu' src='🦆 emoji _hamburger menu_.png'>"
+            }
+            else{
+                var str = "<a id='home'>HOME</a><a id='aboutus'>ABOUT US</a><a id='curriculum'>CURRICULUM</a><a id='enrollment'>ENROLLMENT</a><a id='contactus'>CONTACT US</a>"
+            }   
+            document.getElementById("headerbuttons").innerHTML = str;}, true);
+             
+        </script>
+    </div>
+    <div>
+        <img id="photobanner" src = "titlekids.jpeg" alt = "Child, similing in the classroom">
+    </div>
+    <div id ="quotebox">
+        <p id="quote">At New World, Education encompasses Virtues of; Discipline, 
+            Grace & Courtesy, Patriotism, Courage, Integrity, Self-Esteem,
+             Independence, Love of Learning and Humility.</p>
+    </div>
+    <div class="calendar">
+        <div class="cal">
+            <img id="table" src = "kidsTable.png" alt = "Children play game on chairs">
+            <img id = "f" src="🦆 emoji _facebook_.png" alt = "Facebook logo">
+        </div>
+        <div class="cal">
+            <img id="drawing2" src = "drawing2.png" alt = "Children drawing">
+            <img id ="t"src="🦆 emoji _Twitter_.png" alt = "Twitter logo">
+        </div> 
+        <div class="cal">
+            <img id="drawing1" src = "drawing1.png" alt = "Child playing">
+            <img id ="i" src="instagram.png" alt = "Instagram logo">
+        </div>
+            
+            
+    </div>
+    <div class="enrollnow"> 
+        <img id="enrollkids" src="enrollnow.png" alt="Children, happy and sitting on wall">
+    </div>
+    <div id="footer">
+        <div id="logo2">
+            <img id="logo" src="newworld.png" alt="New World Montessori School's Logo">
+            <div id="info">
+                <p id="uno"> NEW WORLD <br>MONTESSORI SCHOOL</p><br>
+                <p id="dos">10520 REGENT ST, LOS ANGELES, CA 90034</p><br>
+                <p id="tres">(310) 838-4044</p><br>
+            </div>
+        </div>
+        <div class="socials">
+            <img id = "face" src="🦆 emoji _facebook_.png" alt = "Facebook logo">
+            <img id ="twitter"src="🦆 emoji _Twitter_.png" alt = "Twitter logo">
+            <img id ="insta" src="instagram.png" alt = "Instagram logo">
+        </div>  
+    </div>
+</body>
+</html>
